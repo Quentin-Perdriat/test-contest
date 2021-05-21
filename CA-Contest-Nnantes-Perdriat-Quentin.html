@@ -23,24 +23,21 @@
         color: #777;
         line-height: 1.8;
     }
-    /* First image (Logo. Full height) */
+    /* 1ere image (fond d'écran) */
     
     .bgimg-1 {
-        min-height: 25%;
+        background-image: url('logo-partie1.jpg');
+        min-height: 85%;
     }
-    /* Second image (Portfolio) */
+    /* 2eme image (Portfolio) */
     
     .bgimg-2 {
-        min-height: 350px;
+        background-image: url('logo-partie 2.jpg');
+        min-height: 80%;
     }
-    /* Third image (Contact) */
     
     .bgimg-3 {
-        min-height: 500px;
-    }
-    
-    .w3-wide {
-        letter-spacing: 5px;
+        min-height: 450px;
     }
 </style>
 
@@ -48,25 +45,22 @@
 
     <!-- barre d'interaction -->
     <div class="w3-top">
-        <div class="w3-bar" id="myNavbar">
-            <a href="#Haut de Page" class="w3-bar-item button">HOME</a>
-            <a href="#A PROPOS" class="w3-bar-item button w3-hide-small"><i class="fa fa-user"></i> A PROPOS</a>
+        <div class="bar" id="myNavbar">
+            <a href="#Haut-de-Page" class="w3-bar-item button">HOME</a>
+            <a href="#A-PROPOS" class="w3-bar-item button w3-hide-small"><i class="fa fa-user"></i> A PROPOS</a>
             <a href="#portfolio" class="w3-bar-item button w3-hide-small"><i class="fa fa-th"></i> MON PORTFOLIO</a>
             <a href="#contact" class=" button w3-hide-small"><i class="fa fa-envelope"></i> ME CONTACTER</a>
-            </a>
         </div>
     </div>
 
     <!-- First Parallax Image with Logo Text -->
-    <div class="bgimg-1 position-partis w3-opacity-min" id="Haut de Page">
+    <div class="bgimg-1 position-partis w3-opacity-min" id="Haut-de-Page">
         <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center black w3-xlarge w3-wide w3-animate-opacity">MY <span
-                    class="w3-hide-small">WEBSITE</span> LOGO</span>
         </div>
     </div>
 
     <!-- Contenue de la section a propos -->
-    <div class="contenant-barre-pourcentage w3-container marge-entre-pourcentage" id="A PROPOS">
+    <div class="contenant-barre-pourcentage marge-entre-pourcentage" id="A-PROPOS">
         <div class="position-contenant">
             <div class="w3-col m6 w3-center ">
                 <p><b><i class="fa fa-user w3-margin-right"></i>PERDRIAT Quentin</b></p><br>
@@ -75,7 +69,7 @@
             <p>Je suis un jeune étudiant de 24 ans qui adore le monde des jeux vidéos et tout ce qui est lié à la création de nouveaux contenus <br>(création de jeux vidéos/création de nouvelles vidéos/création de sites web).</p>
             <div class="position-contenant">
                 <div class="w3-col m6 w3-center ">
-                    <p><b><i class="fa fa-user w3-margin-right"></i>Description de mon site</b></p><br>
+                    <p><b><i class="w3-margin-right"></i>Description de mon site</b></p><br>
                 </div>
 
                 <!-- Hide this text on small devices -->
@@ -83,20 +77,20 @@
                     <p>Bienvenue sur mon site portfolio, vous trouverez ici tous ce qui me concerne, ce que j'aime, mes compétences et mes dernières créations que se soit site internet ou montage vidéos </p>
                 </div>
             </div>
-            <p class="w3-large w3-center">je suis vraiment bon pour</p>
+            <h3 class="w3-large w3-center">je suis vraiment bon pour</h3>
             <p class="w3-wide"><i class="fa fa-camera"></i>Montage Vidéo</p>
             <div class="light-grey">
-                <div class="w3-container dark-grey w3-center" style="width:85%">85%</div>
+                <div class=" dark-grey w3-center" style="width:85%">85%</div>
             </div>
             <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
             <div class="light-grey">
-                <div class="w3-container dark-grey w3-center" style="width:70%">70%</div>
+                <div class=" dark-grey w3-center" style="width:70%">70%</div>
             </div>
         </div>
     </div>
 
 
-    <div class="contenant-barre-pourcentage w3-container marge-entre-pourcentage" id="A PROPOS"></div>
+    <div class="contenant-barre-pourcentage  marge-entre-pourcentage"></div>
     <div class="position-contenant w3-center dark-grey ">
         <div class="w3-quarter w3-section">
             <span class="w3-xlarge"></span><br>
@@ -112,48 +106,52 @@
         </div>
     </div>
 
+
     <!--language de-->
-    <div class="contenant-barre-pourcentage w3-container marge-entre-pourcentage" id="A PROPOS">
-        <p class="w3-large w3-center">language de programation</p>
-        <p class="w3-wide"><i class="fa fa-laptop"></i>Lua(C#)</p>
+    <div class="contenant-barre-pourcentage  marge-entre-pourcentage">
+        <h3 class="w3-large w3-center">language de programation</h3>
+        <i class="fa fa-laptop"></i>Lua(C#)
         <div class="light-grey">
-            <div class="w3-container dark-grey w3-center" style="width:45%">45%</div>
+            <div class="dark-grey w3-center" style="width:45%">45%</div>
         </div>
         <p class="w3-wide"><i class="fa fa-laptop"></i>HTML-CSS-PHP</p>
         <div class="light-grey">
-            <div class="w3-container dark-grey w3-center" style="width:70%">70%</div>
+            <div class=" dark-grey w3-center" style="width:70%">70%</div>
         </div>
         <p class="w3-wide"><i class="fa fa-laptop"></i>Python</p>
         <div class="light-grey">
-            <div class="w3-container dark-grey w3-center" style="width:35%">35%</div>
+            <div class=" dark-grey w3-center" style="width:35%">35%</div>
         </div>
     </div>
 
-    <div class="contenant-barre-pourcentage w3-container marge-entre-pourcentage" id="A PROPOS"></div>
+    <div class="contenant-barre-pourcentage marge-entre-pourcentage"></div>
     <div class="position-contenant w3-center dark-grey ">
         <div class="w3-quarter w3-section">
             <span class="w3-xlarge"></span><br><br>
         </div>
     </div>
 
+
     <!-- Second Parallax Image with Portfolio Text -->
     <div class="bgimg-2 position-partis w3-opacity-min">
         <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-wide">PORTFOLIO</span>
+            <span class="w3-xxlarge">PORTFOLIO</span>
         </div>
     </div>
 
     <!-- Contenue de la section Portforlio -->
-    <div class="contenant-barre-pourcentage w3-container marge-entre-pourcentage" id="portfolio">
+    <div class="contenant-barre-pourcentage marge-entre-pourcentage" id="portfolio">
         <h3 class="w3-center">Mon Travaille</h3>
-        <p class="w3-center"><em>Voici le travail réalisé dernièrement<br> Clicker sur l'image pour etre rediriger</em>
+        <p class="w3-center"><em>Voici le travail réalisé dernièrement<br> Clicker sur l'image pour etre
+                rediriger</em>
         </p><br>
 
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
         <div class="w3-center">
             <div class="w3-col m3">
                 <img src="youtube.jpg" style="width:100%" alt="chaine youtube">
-                <a href="https://www.youtube.com/channel/UCVMqw64UxMfhU88B1IOA0dA/featured">Chaine Youtube(clikable)</a>
+                <a href="https://www.youtube.com/channel/UCVMqw64UxMfhU88B1IOA0dA/featured">Chaine
+                    Youtube(clikable)</a>
             </div>
 
             <div class="w3-col m3">
@@ -163,11 +161,11 @@
 
             <div class="w3-col m3">
                 <img src="fantasy_world_logo.png" style="width:85%" alt="site wow pour guilde du jeu World Of Warcraft">
-                <a href="">Projet faire site web pour le projet de fin d'anner</a>
+                <a href="">Projet de faire un site web pour le projet de fin d'anner</a>
             </div>
 
             <div class="w3-col m3">
-                <img src="guilde wow.jpg" style="width:130%" alt="Quiet ocean">
+                <img src="guilde-wow.jpg" style="width:130%" alt="guild-wow">
                 <a href="">Projet de faire un site web pour guilde wow</a>
             </div>
         </div>
@@ -181,7 +179,7 @@
     </div>
 
     <!-- Contenue de la section CONTACT -->
-    <div class="contenant-barre-pourcentage w3-container marge-entre-pourcentage" id="contact">
+    <div class="contenant-barre-pourcentage marge-entre-pourcentage" id="contact">
         <h3 class="w3-center">OU ME TROUVER</h3>
 
         <div class="position-contenant w3-section">
@@ -194,9 +192,12 @@
                     <br>
                 </div>
             </div>
+            <div class="w3-center">
+                <div class="w3-col m3"></div>
+                <img src="map.PNG" style="width:100%" alt="lieux-de-ou-me-trouver">
+            </div>
         </div>
     </div>
-
     <!-- Footer -->
     <footer class="w3-center black marge-entre-pourcentage">
         <a href="#home" class="button light-grey"><i class="fa fa-arrow-up"></i>Retour Haut De Page</a>
